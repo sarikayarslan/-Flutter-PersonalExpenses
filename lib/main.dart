@@ -164,6 +164,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+//Cross settings examples
       floatingActionButton: Platform.isIOS
           ? Container()
           : FloatingActionButton(
