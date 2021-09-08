@@ -135,6 +135,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             _showChart
                 ? Container(
+
                     height: (MediaQuery.of(context).size.height -
                             appBar.preferredSize.height -
                             MediaQuery.of(context).padding.top) *
